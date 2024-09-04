@@ -1,6 +1,6 @@
 // index.js
 import * as PIXI from 'pixi.js';
-import { createButton } from './button';
+import { ButtonText } from './buttonAndText';
 import { compareCards } from './compareCards';
 import cardData from '../dist/poker_card/poker_card.json';
 
@@ -28,6 +28,7 @@ for (const key in cardData.frames) {
     cardSprites.push(cardSprite);
 }
 
+// function click start
 async function onButtonClick(button) {
     try {
         button.visible = false; 
@@ -39,18 +40,17 @@ async function onButtonClick(button) {
             await moveCardsFor5Seconds();
             showCardsAccordingToIds(data);
 
-            // แสดงข้อความที่ถูกต้อง
             if (result.WIN) {
                 textWinResult.style.fill = result.WIN === 'RED' ? '#FF0000' :
                                            result.WIN === 'BLUE' ? '#0000FF' :
                                            '#006400';
                 textWinResult.text = result.WIN;
             }
+
             textRed.visible = true;
             textBlue.visible = true;
             textWinLabel.visible = true;
             textWinResult.visible = true;
-
             restartButton.visible = true; 
             return result;
         }
@@ -59,6 +59,7 @@ async function onButtonClick(button) {
     }
 }
 
+// function click restart
 async function onRestartClick() {
     restartButton.visible = false;
     setData(textRed, textBlue, textWinLabel, textWinResult);
@@ -92,10 +93,12 @@ async function onRestartClick() {
     }
 }
 
+// function log result
 function displayResult(result) {
     console.log('Result:', result);
 }
 
+// function animation move poker
 function moveCardsFor5Seconds() {
     return new Promise((resolve) => {
         const startTime = Date.now();
@@ -126,6 +129,7 @@ function moveCardsFor5Seconds() {
     });
 }
 
+// function show card RED and BLUE
 function showCardsAccordingToIds(data) {
     const [redCard, blueCard] = data;
     const newCardSprites = [];
@@ -152,6 +156,7 @@ function showCardsAccordingToIds(data) {
     displayedCardSprites = newCardSprites;
 }
 
+//  function http request method(POST)
 async function fetchCardData() {
     try {
         const response = await fetch('http://localhost:3000/api/draw', {
@@ -177,6 +182,7 @@ async function fetchCardData() {
 
 let displayedCardSprites = []; // To track the two displayed cards
 
+//  function set data restart
 function setData(textRed, textBlue, textWinLabel, textWinResult) {
     console.log("Restarting the game...");
 
@@ -204,13 +210,6 @@ function setData(textRed, textBlue, textWinLabel, textWinResult) {
         console.error('Some text variables are undefined');
     }
 }
+const { button, restartButton, textRed, textBlue, textWinLabel, textWinResult } = ButtonText(app, onButtonClick, onRestartClick);
 
-
-
-
-
-const { button, restartButton, textRed, textBlue, textWinLabel, textWinResult } = createButton(app, onButtonClick, onRestartClick);
-
-// และใน onRestartClick
-// onRestartClick(textRed, textBlue, textWinLabel, textWinResult);s
 

@@ -1,6 +1,8 @@
 import * as PIXI from 'pixi.js';
 
-export function createButton(app, onButtonClick, onRestartClick) {
+//  Button And Text
+export function ButtonText(app, onButtonClick, onRestartClick) {
+    // style button "start "
     const button = new PIXI.Graphics();
     const radius = 20;
     button.beginFill(0xDE3249);
@@ -10,35 +12,41 @@ export function createButton(app, onButtonClick, onRestartClick) {
     button.y = app.view.height / 2 - button.height / 2;
     app.stage.addChild(button);
 
+    // position button
     const buttonText = new PIXI.Text('Random', { fontSize: 24, fill: '#ffffff' });
     buttonText.x = button.width / 2 - buttonText.width / 2;
     buttonText.y = button.height / 2 - buttonText.height / 2;
     button.addChild(buttonText);
 
+    // text "RED"
     const textRed = new PIXI.Text('RED', {
         fontSize: 36,
         fontWeight: 'bold',
         fill: '#FF0000'
     });
 
+    // text "BLUE"
     const textBlue = new PIXI.Text('BLUE', {
         fontSize: 36,
         fontWeight: 'bold',
         fill: '#0000FF'
     });
 
+    // text "WIN"
     const textWinLabel = new PIXI.Text('WIN :', {
         fontSize: 36,
         fontWeight: 'bold',
         fill: '#006400'
     });
 
+    // text WIN: 'Result'
     const textWinResult = new PIXI.Text('', {
         fontSize: 36,
         fontWeight: 'bold',
         fill: '#006400'
     });
 
+    // Positions text
     textRed.x = 130;
     textRed.y = app.renderer.height / 2 - 170;
 
@@ -51,16 +59,19 @@ export function createButton(app, onButtonClick, onRestartClick) {
     textWinResult.x = textWinLabel.x + textWinLabel.width + 10;
     textWinResult.y = textWinLabel.y;
 
+    // add text in state
     app.stage.addChild(textRed);
     app.stage.addChild(textBlue);
     app.stage.addChild(textWinLabel);
     app.stage.addChild(textWinResult);
 
+    // set text visible
     textRed.visible = false;
     textBlue.visible = false;
     textWinLabel.visible = false;
     textWinResult.visible = false;
 
+    // click Event onButtonClick
     button.eventMode = 'dynamic';
     button.buttonMode = true;
     button.on('pointerdown', async () => {
@@ -83,6 +94,7 @@ export function createButton(app, onButtonClick, onRestartClick) {
         }
     });
 
+    // Restart button
     const restartButton = new PIXI.Graphics();
     restartButton.beginFill(0xDE3249);
     restartButton.drawRoundedRect(0, 0, 200, 50, radius);
@@ -99,6 +111,7 @@ export function createButton(app, onButtonClick, onRestartClick) {
 
     restartButton.visible = false; 
 
+    // click event onRestartClick
     restartButton.eventMode = 'dynamic';
     restartButton.buttonMode = true;
     restartButton.on('pointerdown', async () => {
@@ -111,6 +124,7 @@ export function createButton(app, onButtonClick, onRestartClick) {
                                                '#006400';
                     textWinResult.text = result.WIN;
                 }
+                // set text visible
                 textRed.visible = true;
                 textBlue.visible = true;
                 textWinLabel.visible = true;

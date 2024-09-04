@@ -33,13 +33,14 @@ let id = 1;
 suits.forEach(suit => {
   ranks.forEach(rank => {
     deck.push({
-      id: id++,                          // id เป็นตัวเลขตั้งแต่ 1 ถึง 52
-      rank: rank.rank,                   // แต้มบนไพ่ เช่น 1 (A), 2, 3, ..., 13 (K)
-      suit: `${colors[suit]} ${suit}`,   // สีและดอกของไพ่ เช่น "Black Clubs", "Red Diamonds"
+      id: id++,                          
+      rank: rank.rank,                  
+      suit: `${colors[suit]} ${suit}`,   
     });
   });
 });
 
+// สุ่มไพ่มา 2 ใบ
 app.post('/api/draw', (req, res) => {
   function drawCard(deck, drawnIndices) {
     let randomIndex;
@@ -74,7 +75,6 @@ app.post('/api/draw', (req, res) => {
 //     res.status(404).send('Card not found');
 //   }
 // });
-
 
 
 app.listen(PORT, () => {

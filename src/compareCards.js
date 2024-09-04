@@ -1,4 +1,3 @@
-// compareCards.js
 export function compareCards(data) {
     if (!Array.isArray(data) || data.length !== 2) {
         console.error('Invalid data format:', data);
@@ -18,6 +17,7 @@ export function compareCards(data) {
         WIN: ''
     };
 
+    // หาผู้ชนะหรือเสมอ
     if (redCard.rank > blueCard.rank) {
         result.WIN = 'RED';
     } else if (blueCard.rank > redCard.rank) {
