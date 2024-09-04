@@ -34,10 +34,23 @@ async function onButtonClick(button) {
         const data = await fetchCardData();
         if (data) {
             const result = compareCards(data);
-            console.log('Comparison Result:', result);
+            // console.log('Comparison Result:', result);
             displayResult(result);
             await moveCardsFor5Seconds();
             showCardsAccordingToIds(data);
+
+            // แสดงข้อความที่ถูกต้อง
+            if (result.WIN) {
+                textWinResult.style.fill = result.WIN === 'RED' ? '#FF0000' :
+                                           result.WIN === 'BLUE' ? '#0000FF' :
+                                           '#006400';
+                textWinResult.text = result.WIN;
+            }
+            textRed.visible = true;
+            textBlue.visible = true;
+            textWinLabel.visible = true;
+            textWinResult.visible = true;
+
             restartButton.visible = true; 
             return result;
         }
@@ -47,22 +60,37 @@ async function onButtonClick(button) {
 }
 
 async function onRestartClick() {
-    restartButton.visible = false; 
+    restartButton.visible = false;
     setData(textRed, textBlue, textWinLabel, textWinResult);
-    const data = await fetchCardData();
-    if (data) {
-        const result = compareCards(data);
-        console.log('Comparison Result:', result);
-        displayResult(result);
-        await moveCardsFor5Seconds();
-        showCardsAccordingToIds(data);
-        restartButton.visible = true; 
-        return result;
+
+    try {
+        const data = await fetchCardData();
+        if (data) {
+            const result = compareCards(data);
+            // console.log('Comparison Result:', result);
+            displayResult(result);
+            await moveCardsFor5Seconds();
+            showCardsAccordingToIds(data);
+
+            // ตรวจสอบค่าของข้อความและแสดงข้อความ
+            if (result.WIN) {
+                textWinResult.style.fill = result.WIN === 'RED' ? '#FF0000' :
+                                           result.WIN === 'BLUE' ? '#0000FF' :
+                                           '#006400';
+                textWinResult.text = result.WIN;
+            }
+            textRed.visible = true;
+            textBlue.visible = true;
+            textWinLabel.visible = true;
+            textWinResult.visible = true;
+
+            restartButton.visible = true; 
+            return result;
+        }
+    } catch (error) {
+        console.error('Error during restart button click:', error);
     }
-    
 }
-
-
 
 function displayResult(result) {
     console.log('Result:', result);
@@ -71,7 +99,7 @@ function displayResult(result) {
 function moveCardsFor5Seconds() {
     return new Promise((resolve) => {
         const startTime = Date.now();
-        const duration = 5000;
+        const duration = 3000;
 
         const tickerCallback = () => {
             const elapsed = Date.now() - startTime;
@@ -119,6 +147,9 @@ function showCardsAccordingToIds(data) {
             console.error(`Card data for ID ${id} is missing.`);
         }
     });
+
+    // Track the displayed cards to hide them during restart
+    displayedCardSprites = newCardSprites;
 }
 
 async function fetchCardData() {
@@ -136,7 +167,7 @@ async function fetchCardData() {
         }
 
         const data = await response.json();
-        console.log('Response from server:', data);
+        // console.log('Response from server:', data);
         return data;
     } catch (error) {
         console.error('There was a problem with the fetch operation:', error);
@@ -144,27 +175,36 @@ async function fetchCardData() {
     }
 }
 
+let displayedCardSprites = []; // To track the two displayed cards
+
 function setData(textRed, textBlue, textWinLabel, textWinResult) {
     console.log("Restarting the game...");
 
-
-    // รีเซ็ตการ์ดทั้งหมดให้เป็นสถานะเริ่มต้น
+    // ซ่อนและจัดตำแหน่งใหม่ให้กับไพ่ทั้งหมด
     cardSprites.forEach(sprite => {
         sprite.visible = true;
         sprite.x = Math.random() * app.renderer.width;
         sprite.y = Math.random() * app.renderer.height;
     });
 
-    // ตรวจสอบว่าตัวแปรเหล่านี้ไม่เป็น undefined ก่อนตั้งค่า
+    // ซ่อนไพ่สองใบที่แสดงก่อนหน้านี้
+    displayedCardSprites.forEach(sprite => {
+        sprite.visible = false;
+    });
+    displayedCardSprites = []; // ล้างค่า array หลังจากซ่อนไพ่แล้ว
+
+    // ซ่อนผลลัพธ์และเคลียร์ข้อความ WIN
     if (textRed && textBlue && textWinLabel && textWinResult) {
         textRed.visible = false;
         textBlue.visible = false;
         textWinLabel.visible = false;
         textWinResult.text = ''; // เคลียร์ข้อความ WIN result
+        textWinResult.visible = false;
     } else {
         console.error('Some text variables are undefined');
     }
 }
+
 
 
 

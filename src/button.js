@@ -83,7 +83,6 @@ export function createButton(app, onButtonClick, onRestartClick) {
         }
     });
 
-    // สร้างปุ่ม Restart
     const restartButton = new PIXI.Graphics();
     restartButton.beginFill(0xDE3249);
     restartButton.drawRoundedRect(0, 0, 200, 50, radius);
@@ -104,7 +103,7 @@ export function createButton(app, onButtonClick, onRestartClick) {
     restartButton.buttonMode = true;
     restartButton.on('pointerdown', async () => {
         try {
-            const result = await onRestartClick(restartButton );
+            const result = await onRestartClick();
             if (result) {
                 if (result.WIN) {
                     textWinResult.style.fill = result.WIN === 'RED' ? '#FF0000' :
@@ -117,10 +116,6 @@ export function createButton(app, onButtonClick, onRestartClick) {
                 textWinLabel.visible = true;
                 textWinResult.visible = true;
             }
-            textRed.visible = false;
-            textBlue.visible = false;
-            textWinLabel.visible = false;
-            textWinResult.visible = false;
         } catch (error) {
             console.error('Error during restart button click:', error);
         }
