@@ -1,0 +1,1055 @@
+{
+	"frames": {
+		"poker1.png": {
+			"frame": {
+				"x": 1,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker10.png": {
+			"frame": {
+				"x": 93,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker11.png": {
+			"frame": {
+				"x": 185,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker12.png": {
+			"frame": {
+				"x": 277,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker13.png": {
+			"frame": {
+				"x": 369,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker14.png": {
+			"frame": {
+				"x": 461,
+				"y": 1,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker15.png": {
+			"frame": {
+				"x": 553,
+				"y": 1,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker16.png": {
+			"frame": {
+				"x": 645,
+				"y": 1,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker17.png": {
+			"frame": {
+				"x": 461,
+				"y": 138,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker18.png": {
+			"frame": {
+				"x": 553,
+				"y": 138,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker19.png": {
+			"frame": {
+				"x": 645,
+				"y": 138,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker2.png": {
+			"frame": {
+				"x": 1,
+				"y": 275,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker20.png": {
+			"frame": {
+				"x": 93,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker21.png": {
+			"frame": {
+				"x": 185,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker22.png": {
+			"frame": {
+				"x": 277,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker23.png": {
+			"frame": {
+				"x": 369,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker24.png": {
+			"frame": {
+				"x": 461,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker25.png": {
+			"frame": {
+				"x": 553,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker26.png": {
+			"frame": {
+				"x": 645,
+				"y": 275,
+				"w": 90,
+				"h": 135
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 135
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 135
+			}
+		},
+		"poker27.png": {
+			"frame": {
+				"x": 93,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker28.png": {
+			"frame": {
+				"x": 185,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker29.png": {
+			"frame": {
+				"x": 277,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker3.png": {
+			"frame": {
+				"x": 369,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker30.png": {
+			"frame": {
+				"x": 461,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker31.png": {
+			"frame": {
+				"x": 553,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker32.png": {
+			"frame": {
+				"x": 645,
+				"y": 412,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker33.png": {
+			"frame": {
+				"x": 1,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker34.png": {
+			"frame": {
+				"x": 93,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker35.png": {
+			"frame": {
+				"x": 185,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker36.png": {
+			"frame": {
+				"x": 277,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker37.png": {
+			"frame": {
+				"x": 369,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker38.png": {
+			"frame": {
+				"x": 461,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker39.png": {
+			"frame": {
+				"x": 553,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker4.png": {
+			"frame": {
+				"x": 645,
+				"y": 550,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker40.png": {
+			"frame": {
+				"x": 737,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker41.png": {
+			"frame": {
+				"x": 737,
+				"y": 139,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker42.png": {
+			"frame": {
+				"x": 737,
+				"y": 277,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker43.png": {
+			"frame": {
+				"x": 737,
+				"y": 415,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker44.png": {
+			"frame": {
+				"x": 737,
+				"y": 553,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker45.png": {
+			"frame": {
+				"x": 1,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker46.png": {
+			"frame": {
+				"x": 93,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker47.png": {
+			"frame": {
+				"x": 185,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker48.png": {
+			"frame": {
+				"x": 277,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker49.png": {
+			"frame": {
+				"x": 369,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker5.png": {
+			"frame": {
+				"x": 461,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker50.png": {
+			"frame": {
+				"x": 553,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker51.png": {
+			"frame": {
+				"x": 645,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker52.png": {
+			"frame": {
+				"x": 737,
+				"y": 691,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker6.png": {
+			"frame": {
+				"x": 829,
+				"y": 1,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker7.png": {
+			"frame": {
+				"x": 829,
+				"y": 139,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker8.png": {
+			"frame": {
+				"x": 829,
+				"y": 277,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		},
+		"poker9.png": {
+			"frame": {
+				"x": 829,
+				"y": 415,
+				"w": 90,
+				"h": 136
+			},
+			"rotated": false,
+			"trimmed": false,
+			"spriteSourceSize": {
+				"x": 0,
+				"y": 0,
+				"w": 90,
+				"h": 136
+			},
+			"sourceSize": {
+				"w": 90,
+				"h": 136
+			}
+		}
+	},
+	"meta": {
+		"app": "http://www.codeandweb.com/texturepacker",
+		"version": "1.0",
+		"image": "../poker_card/poker_card.png",
+		"format": "RGBA8888",
+		"size": {
+			"w": 920,
+			"h": 828
+		},
+		"scale": "1"
+	}
+}
